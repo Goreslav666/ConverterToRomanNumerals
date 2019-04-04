@@ -13,7 +13,7 @@
       "role": "Developer"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "master-dev",
   "require": {
     "php": ">=5.4",
     "ext-pdo": "*"
