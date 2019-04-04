@@ -1,0 +1,16 @@
+{
+  "name": "goreslav/epic-converter",
+  "type": "library",
+  "description": "Convert arabic numbers to roman numerals",
+  "keywords": ["RomanNumerals"],
+  "homepage": "https://yourcompany.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lubos Vlcek",
+      "email": "lubos.vlcek@ringier.sk",
+      "homepage": "http://seld.be",
+      "role": "Developer"
+    }
+  ]
+}
