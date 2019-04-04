@@ -12,5 +12,14 @@
       "homepage": "http://seld.be",
       "role": "Developer"
     }
-  ]
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Converter\\": "/src"
+    }
+  }
 }
