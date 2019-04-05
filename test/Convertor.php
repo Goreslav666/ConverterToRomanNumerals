@@ -1,20 +1,22 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: lubos.vlcek
- * Date: 2019-04-04
- * Time: 17:08
- */
+
 
 class Convertor extends \PHPUnit\Framework\TestCase
 {
+
 
     /**
      *
      */
     public function testConvertsNumbersIntoRoman(){
-        $convertor = new \IW\Controller\Convertor(999);
-        $this->assertEquals('CMXCIX', $convertor->getRoman());
+        $convertor = new \IW\Converter\Convertor();
+        $convertor->toRoman(999);
+        $this->assertEquals('CMXCIX', $convertor->getRomanNumber());
     }
 
+    public function testReturnsString(){
+        $convertor = new \IW\Converter\Convertor();
+        $convertor->toRoman(22);
+        $this->assertIsString($convertor->getRomanNumber(),gettype($convertor->getRomanNumber()));
+    }
 }
