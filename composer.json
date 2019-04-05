@@ -9,14 +9,13 @@
     {
       "name": "Lubos Vlcek",
       "email": "lubos.vlcek@ringier.sk",
-      "homepage": "http://seld.be",
+      "homepage": "http://blob.blob",
       "role": "Developer"
     }
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=5.4",
-    "ext-pdo": "*"
+    "php": ">=5.4"
   },
   "autoload": {
     "psr-4": {
